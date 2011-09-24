@@ -4,6 +4,8 @@ name := "$name$"
 
 version := "$version$"
 
+scalaVersion := "$scala_version$"
+
 libraryDependencies ++= Seq(
    "net.databinder" %% "dispatch-http" % "$dispatch_version$"
 )
