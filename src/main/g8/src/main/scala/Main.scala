@@ -7,5 +7,9 @@ object Launcher {
   def main(args: Array[String]){
     val http = new Http
     http(url("http://checkip.dyndns.org") >>> System.out)
+    h.shutdown
+
+//    or alternatively,
+//    val output = Http(url("http://checkip.dyndns.org") as_str).toString
   }
 }
